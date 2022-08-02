@@ -11,8 +11,9 @@
 8. Type: nvm alias default 16.13.2
 9. Verify: node and npm is installed : node -v and npm -v
 10. Create a package.json by typing: npm init Accept requirements
-11. Install npm lite server: npm install lite-server –-save-dev
-    Npm lite server is a node.js based development web server. Basically a mock web server to use for testing development, not a real web server.
+
+<---ignore below-----> 11. Install npm lite server: npm install lite-server –-save-dev
+Npm lite server is a node.js based development web server. Basically a mock web server to use for testing development, not a real web server.
 
 --save-dev flag means that lite-server is being installed as a development dependency, which means that later, when you build your project for deployment, it will not be included in the final build files, since it is only needed during development.
 
